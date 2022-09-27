@@ -11,7 +11,8 @@
         state: latest
 
     - name: make directory bigdrey
-    command: sudo mkdir bigdrey
+      become: true
+      command: mkdir bigdrey
 
 - name: update LB server
   hosts: lb

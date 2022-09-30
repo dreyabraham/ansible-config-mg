@@ -1,4 +1,0 @@
-[uat-webservers]
-34.227.14.138 ansible_ssh_user='ec2-user' 
-
-54.174.193.249 ansible_ssh_user='ec2-user' 
